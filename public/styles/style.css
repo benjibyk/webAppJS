@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* horizontally align */
+    align-items: center; /* vertically align */
+    height: 100vh; /* Ensure the body covers the full viewport height */
+}
+
+.container {
+    padding: 20px;
+    background-color: beige;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content inside the container */
+    height:80%;
+    width:80%;
+    /* background-image: url('../assets/img/background/bg.png'); */
+    /* background-size: cover; 
+    background-position: center; */
+}
+
+h1 {
+    font-family: Poppins;
+    color: #333;
+}
+
+p {
+    font-family: inter;
+    color: #666;
+}
